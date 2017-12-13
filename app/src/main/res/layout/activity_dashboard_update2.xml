@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="walid44443.fb.resturantfirsttry.DashboardUpdate2Activity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/resturant_id_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <EditText
+        android:id="@+id/resturant_name_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Resturant Name" />
+    <EditText
+        android:id="@+id/resturant_ico_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Resturant ico" />
+
+    <EditText
+        android:id="@+id/resturant_phone_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Resturant phone" />
+
+    <Button
+        android:id="@+id/choose_location_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to choose location" />
+
+    <EditText
+        android:id="@+id/x_axis_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <EditText
+        android:id="@+id/y_axis_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Update" />
+
+
+</LinearLayout>
